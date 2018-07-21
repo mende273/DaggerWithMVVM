@@ -7,7 +7,7 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-public abstract class FragmentAModule {
+public class FragmentAModule {
 
     @PerFragment
     @Provides

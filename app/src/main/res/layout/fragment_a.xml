@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Fragment A"
-        android:textSize="19sp" />
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/entered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tooltipText="insert word here"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/insert"
+            android:text="Insert"/>
+
+        <TextView
+            android:id="@+id/values"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment A"
+            android:textSize="19sp" />
+    </LinearLayout>
+
 </layout>
