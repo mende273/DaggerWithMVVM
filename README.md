@@ -1,1 +1,1 @@
-Simple Android template using Dagger 2.16, MVVP and Data Binding
+Simple Android template using Dagger 2.16, MVVM and Data Binding
